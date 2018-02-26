@@ -1,0 +1,22 @@
+To start a git repository from scratch.
+	Create a new repository from remote (github/gitlab/company/college cloud server)
+	Copy the repository clone url from remote
+	On local system, go to terminal (git bash in case of windows) and issue following command
+	-git clone <clone-url>
+	check status using
+	-git status
+	create new files in this directory
+	add files to be committed 
+	-git add <filename/filepattern>
+	before committing files, set ur git username and email
+	-git config --global user.name "vj"
+	-git config --global user.name "vj"
+	commit files
+	-git commit [-m <commit message>]
+	check current branch using
+	-git branch
+	Push changes to remote server
+	-git push origin <branchname>
+	create new branch from current branch
+	-git checkout -b branch1
+	
